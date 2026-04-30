@@ -1,2 +1,2 @@
-# mariokhoury11.github.io
+# khourymario.github.io
 Personal portfolio website
