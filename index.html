@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>
       Mario Khoury | Portfolio
     </title>
@@ -44,18 +45,23 @@
         border: 1px solid rgba(255,255,255.0.2);
         padding:20px;
       }
-      .skills-row {
+      .skill-item {
         display: flex;
-        justify-content: space-between;
-        margin: 8px,0;
-      }
-      .skills-row span{
-         padding: 6px 10px;
-         border-radius: 8px;
-         background: rgba(255, 255, 255, 0.12);
+        align-items: center;
+        gap: 10px;
+        padding: 12px;
+        border-radius: 12px;
+        background: rgba(255,255,255,0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba (255,255,255,0.2;
+        color: white;
+        transition: 0.2s ease;
+      } 
+      .skill-item: hover {
+        transform: translateY(-3px);
       }
         
-      footer {
+       footer {
         position: absolute;
         bottom: 10px;
           bottom: 15px;
@@ -128,26 +134,36 @@
     </div>
     <div class="skills-box">
       <h2>Skills</h2>
-      <div class = "skills-row">
-        <span>Python</span>
-        <span>GitHub</span>
-      </div>
-      <div class = "skills-row">
-        <span>Java</span>
-        <span>JavaFX</span>
-      </div>
-      <div class = "skills-row">
-        <span>SQL</span>
-        <span>Microsoft Office</span>
-      </div>
-      <div class = "skills-row">
-        <span>HTML</span>
-        <span>Fusion360</span>
-      </div>
-      <div class = "skills-row">
-        <span>CSS</span>
-        <span>Canva</span>
-      </div>
+        <div class="skill-item">
+        <span><i class="fa-brands fa-python"></i>Python</span>
+        </div>
+         <div class="skill-item">
+        <span><i class="fa-brands fa-github"></i>GitHub</span>
+        </div>
+        <div class="skill-item">
+        <span><i class="fa-brands fa-java"></i>Java</span>
+        </div>
+         <div class="skill-item">
+        <span><i class="fa-brands fa-java"></i>JavaFX</span>
+        </div>
+        <div class="skill-item">
+        <span><i class="fa-solid fa-database"></i>SQL</span>
+        </div>
+         <div class="skill-item">
+        <span><i class="fa-solid fa-file-lines"></i>Microsoft Office</span>
+        </div>
+        <div class="skill-item">
+        <span><i class="fa-brands fa-html5"></i>HTML</span>
+        </div>
+         <div class="skill-item">
+        <span><i class="fa-solid fa-screwdriver-wrench"></i> Fusion360</span>
+        </div>
+        <div class="skill-item">
+        <span><i class="fa-brands fa-css3-alt"></i>CSS</span>
+        </div>
+         <div class="skill-item">
+        <span><i class="fa-solid fa-wand-magic-sparkles"></i> Canva</span>
+        </div>
     </div>
     <footer>
       © 2026 Mario Khoury. All rights reserved.
